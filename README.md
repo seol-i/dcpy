@@ -4,7 +4,7 @@
     3.9.12
     python -m venv {blah} 3.9.12
 
-## pip install
+## nstall
     pip install -r requirements.txt
 ![image_820](https://user-images.githubusercontent.com/102517971/160980926-e1a60e63-9b58-4e39-a344-416803259406.png)
     
