@@ -51,10 +51,10 @@
     p = post.fromURL('{url}', device='desktop')
     p.read()
     print(f"{p.number}) {p.title}\n{'-'*80}\n"
-                f"{p.writer.fullname} | {p.date.strftime('%Y.%m.%d %H:%M:%S')} | "
-                f"조회: {p.count} "
-                f"추천: {p.recommend}({p.recommend_gonick}) 비추: {p.nonrecommend}\n{'-' * 80}\n"
-                f"{p.content_text}\n{'-' * 80}")
+          f"{p.writer.fullname} | {p.date.strftime('%Y.%m.%d %H:%M:%S')} | "
+          f"조회: {p.count} "
+          f"추천: {p.recommend}({p.recommend_gonick}) 비추: {p.nonrecommend}\n{'-' * 80}\n"
+          f"{p.content_text}\n{'-' * 80}")
     
 ## 게시물 첨부 파일 저장하기 (영상 포함)
     from dcpy.gallary import post
